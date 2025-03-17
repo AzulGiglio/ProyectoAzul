@@ -4,55 +4,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Azul Giglio | Portafolio</title>
-    <link rel="stylesheet" href="../assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body class="portafolio">
     <header>
-        <div class="menu">
-            <a href="../index.html" ><img class="logo" src="../assets/css/imagenes/logo.png" alt=""></a>
-            <input type="checkbox" id="menu"/>
-            <label for="menu">
-                <img src="" class="menu-icono" alt="">
-            </label>
-
-            <nav class="navbar">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="../pages/sobremi.html">Sobre mí</a></li>
-                    <li><a href="../pages/servicio.html">Servicios</a></li>
-                    <li><a href="../pages/contacto.html">Contacto</a></li>
-                    <li><a href="../pages/portafolio.html">Portafolio</a></li>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img class="logo" src="../assets/css/imagenes/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/sobremi.html">Sobre mí</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/portafolio.html">Portafolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/servicio.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contactame</a>
+                  </li>
                 </ul>
-            </nav>
+              </div>
+            </div>
+        </nav>
+        
         </div>
         <div class="hero-container">
             <h1 class="hero-title"> PORTAFOLIO</h1>
         </div>
     </header>
 
-    <main>
-        <div>
-            <h2>Categorías</h2>
-            <li>Diseño UX/UI para Apps móviles</li>
-            <li>Diseño de sitios web y plataformas</li>
-            <li>Rediseños y optimización UX</li>
-            <li>Branding y diseño visual</li>
-        </div>
-    </main>
+    <main class="portfolio">
+      <section class="intro">
+          <h1>Bienvenido a Mi Portafolio</h1>
+          <p>Soy Ana Azul Giglio, diseñadora UX/UI y desarrolladora apasionada por crear experiencias visuales únicas y funcionales. Mi objetivo es transformar ideas en interfaces intuitivas y atractivas, adaptadas a las necesidades de los usuarios.</p>
+      </section>
+  
+      <section class="skills">
+          <h2>Habilidades y Herramientas</h2>
+          <p>A continuación, te muestro algunos de los programas y herramientas que utilizo en mis proyectos:</p>
+          <ul class="skills-list">
+              <li><strong>Adobe Photoshop</strong> - Diseño gráfico y edición de imágenes.</li>
+              <li><strong>Adobe Illustrator</strong> - Diseño vectorial para crear elementos visuales únicos.</li>
+              <li><strong>Adobe XD</strong> - Prototipado y diseño UX/UI interactivo.</li>
+              <li><strong>Figma</strong> - Herramienta colaborativa para el diseño de interfaces y prototipos.</li>
+              <li><strong>Canva</strong> - Diseño rápido y accesible para proyectos de marketing.</li>
+              <li><strong>HTML/CSS/JavaScript</strong> - Desarrollo web para crear sitios interactivos y responsivos.</li>
+              <li><strong>WordPress</strong> - Gestión de contenido y diseño web de sitios funcionales.</li>
+              <li><strong>Sketch</strong> - Diseño UI/UX y prototipado para aplicaciones móviles y web.</li>
+          </ul>
+      </section>
+  
+      <section class="projects">
+          <h2>Proyectos Destacados</h2>
+          <p>A continuación, te comparto algunos de mis proyectos más representativos:</p>
+          <div class="project-cards">
+              <div class="card">
+                  <img src="project1.jpg" alt="Proyecto 1">
+                  <h3>Proyecto de Rediseño de App</h3>
+                  <p>Rediseño de una aplicación móvil, enfocándome en mejorar la experiencia de usuario y la interfaz visual.</p>
+                  <a href="#" class="btn">Ver Proyecto</a>
+              </div>
+              <div class="card">
+                  <img src="project2.jpg" alt="Proyecto 2">
+                  <h3>Diseño de Plataforma Web</h3>
+                  <p>Creación de una plataforma web para un cliente en el sector educativo, optimizada para todos los dispositivos.</p>
+                  <a href="#" class="btn">Ver Proyecto</a>
+              </div>
+              <div class="card">
+                  <img src="project3.jpg" alt="Proyecto 3">
+                  <h3>Logo y Branding para Marca</h3>
+                  <p>Desarrollo de una identidad visual completa para una nueva marca de moda sostenible.</p>
+                  <a href="#" class="btn">Ver Proyecto</a>
+              </div>
+          </div>
+      </section>
+  </main>
 
-    <footer class="Contacto">
+    <footer>
 
-        <div class="Contacto-Información">
-
-            <div class="Contacto">
-                <h3>Contacto</h3>
-                <ul>
-                    <li><a href="#">Email</a></li>
-                    <li><a href="#">Instagram</a></li>
-                </ul>
+        <div class="container">
+            <div class="row">
+                <!-- Logo y descripción -->
+                <div class="col-md-4">
+                    <h3>Ana Azul Giglio</h3>
+                    <p>Diseñadora & Desarrolladora UX/UI.</p>
+                    <div class="social-icons">
+                    <a href="https://www.instagram.com/bunnyazul_/" target="_blank">
+                        <i class="bi bi-instagram"></i> bunnyazul_
+                    </a>
+                    
+                    <a href="https://x.com/BunnyAzul1" target="_blank">
+                        <i class="bi bi-twitter"></i> bunnyazul1
+                    </a>
+                    
+                    <a href="https://es.pinterest.com/BunnyAzul/" target="_blank">
+                        <i class="bi bi-pinterest"></i> bunnyazul
+                    </a>
+                    </div>
+                </div>
+    
+                <!-- Enlaces -->
+                <div class="col-md-4">
+                    <h3>Otras Paginas</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../pages/sobremi.html">Sobre mí</a></li>
+                        <li><a href="../pages/portafolio.html">Portafolio</a></li>
+                        <li><a href="../pages/servicio.html">Service</a></li>
+                        <li><a href="../pages/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Contacto -->
+                <div class="col-md-4">
+                    <h3>Contactame</h3>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-email"></i> azul.giglio22@gmail.com</li>
+                        <li><i class="bi bi-telephone"></i> 351 6776651</li>
+                    </ul>
+                </div>
             </div>
-
         </div>
 
     </footer>
